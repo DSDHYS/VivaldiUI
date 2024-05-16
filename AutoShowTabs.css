@@ -1,0 +1,14 @@
+
+#panels-container + .tabbar-wrapper *:not(#tabs-subcontainer){
+    max-width: 60px;
+}
+#panels-container +  .tabbar-wrapper * #tabs-subcontainer{
+    max-width: 30px;
+}
+#panels-container + .tabbar-wrapper:hover *:not(#tabs-subcontainer),#panels-container + .tabbar-wrapper:hover *:not(#tabs-container){
+    max-width: 330px;
+}
+#panels-container:hover + .tabbar-wrapper *:not(#tabs-subcontainer),#panels-container:hover + .tabbar-wrapper *:not(#tabs-container){
+    max-width: 330px;
+}
+
